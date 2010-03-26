@@ -44,30 +44,33 @@ ul {
   display: inline;
   margin-right: 0.5em;
   vertical-align: middle;
-  line-height: 3em;
+}
+
+.tags li a {
   background-color: #eee;
   padding: 0.60em;
+  line-height: 3em; 
   border-radius: 0.25em;
   -moz-border-radius: 0.25em;
   border: 1px solid #ddd;
 }
 
-.tags li.weak {
+.tags .weak {
   color: #555;
   font-size: 0.9em;
 }
 
-.tags li.strong {
+.tags .strong {
   font-weight: normal;
   font-size: 1.4em;
 }
 
-.tags li.prefer {
+.tags .prefer {
   border-color: #cec;
   background-color: #dfd;
 }
 
-.tags li.dislike {
+.tags .dislike {
   border-color: #ecc;
   background-color: #fdd;
 }
