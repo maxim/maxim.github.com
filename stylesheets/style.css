@@ -1,0 +1,106 @@
+body { 
+  font-family: font-family: "Futura Medium", "Century Gothic", AppleGothic, sans-serif;
+  line-height: 1.3;
+  color: #333;
+}
+
+h1, h2, h3, h4 { 
+  font-family: Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif;
+  font-size: 1.8em;
+}
+
+.subheader {
+  margin-top: 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tags-header {
+  margin-bottom: 0;
+}
+
+.tags {
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 4em;
+}
+
+.tags li {
+  display: inline;
+  margin-right: 0.5em;
+  vertical-align: -2em;
+  background-color: #eee;
+  padding: 0.60em;
+  border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border: 1px solid #ddd;
+}
+
+.tags li .weak {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.tags li strong {
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
+#title {
+  text-align: center;
+}
+
+#quick-links {
+  list-style-type: none;
+  padding-left: 0.5em;
+  width: 25em;
+  margin: 2em auto;
+  color: #666;
+  font-size: 0.9em;
+}
+
+#quick-links li a {
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.label {
+  color: #888;
+  display: inline-block;
+  width: 6em;
+  padding-right: 1em;
+  text-align: right;
+}
+
+#quick-links li a:hover, #quick-links li a:focus {
+  text-decoration: underline;  
+}
+
+.intro {
+  text-indent: 2em;
+}
+
+#content {
+  width: 960px;
+  margin: 3em auto;
+}
+
+.spaced-out {
+  line-height: 1.5;
+}
+
+.column-wrapper {
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  text-align: justify;
+}
