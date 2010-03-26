@@ -4,6 +4,8 @@ body {
   color: #333;
 }
 
+abbr { border: none; cursor: help; }
+
 h1, h2, h3, h4 { 
   font-family: Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif;
   font-size: 1.8em;
