@@ -9,6 +9,13 @@ h1, h2, h3, h4 {
   font-size: 1.8em;
 }
 
+#left-ribbon {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  border: 0;
+}
+
 .subheader {
   margin-top: 0;
   color: #666;
@@ -28,7 +35,7 @@ ul {
   font-size: 1em;
   font-family: "Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif;
   margin-top: 0;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 .tags li {
@@ -52,8 +59,18 @@ ul {
   font-size: 1.4em;
 }
 
+.tags .prefer {
+  background-color: #dfd;
+}
+
+.tags .dislike {
+  background-color: #fdd;
+}
+
 #title {
   text-align: center;
+  font-size: 4em;
+  color: #777;
 }
 
 #quick-links {
@@ -82,10 +99,6 @@ ul {
   text-decoration: underline;  
 }
 
-.intro {
-  text-indent: 2em;
-}
-
 #content {
   width: 960px;
   margin: 3em auto;
@@ -103,4 +116,13 @@ ul {
   float: left;
   width: 30%;
   text-align: justify;
+  padding: 15px;
+}
+
+p em {
+  font-style: inherit;
+  background-color: #ffd;
+  padding: 2px 5px 2px 5px;
+  font-size: 1.05em;
+  color: #444;
 }

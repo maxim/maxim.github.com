@@ -35,75 +35,60 @@ layout: default
 In Short
 --------
 
-<p class="intro">You have stumbled upon a passionate tinkerer, just look at my <a href="http://github.com/maxim">github profile</a>. I program for work and leisure (well, leisure sometimes involves silly things like making music, hiking, and backpacking). You know, the guy that keeps up with every single <a href="http://yehudakatz.com/">Yehuda Katz</a> article and reads source code while consuming his morning cereal? The same guy that started hacking on Rails 3 before most people could get it to run? Yeah, that&#8217;s me. </p>
+<p class="intro">You have stumbled upon a passionate <em>tinkerer</em>, just look at my <a href="http://github.com/maxim">github profile</a>. I program for work and leisure (well, leisure sometimes involves silly things like making music, hiking, and backpacking). You know, the guy that keeps up with every single <a href="http://yehudakatz.com/">Yehuda Katz</a> article and <em>reads source code</em> while consuming his morning cereal? The same guy that started <em>hacking on Rails 3</em> before most people could get it to run? Yeah, that&#8217;s me. </p>
 
-<p class="intro">I enjoy teaching as well as <em>learning</em> from others, thus I&#8217;m sure we will have a lot to talk about. The thing is &#8212; I hold it dear that we should be having fun, and principally strive for enjoyable partnership. Some of my attempts at teaching can be found on <a href="http://mediumexposure.com">my blog</a>. Oh, and I build web apps. A lot. In fact I&#8217;m working on two right now in my other OS X &#8220;spaces&#8221;. I love building apps that solve real problems and/or help maintain lifestyles. On the other hand, maybe I&#8217;m just making excuses to do more tinkering.</p>
+<p class="intro">I <em>enjoy teaching as well as learning</em> from others, thus I&#8217;m sure we will have a lot to talk about. The thing is &#8212; I hold it dear that we should be having fun, and principally <em>strive for enjoyable partnership</em>. Some of my attempts at teaching can be found on <a href="http://mediumexposure.com">my blog</a>. Oh, and I build web apps. A lot. In fact I&#8217;m working on two right now in my other OS X &#8220;spaces&#8221;. I <em>love building apps</em> that solve real problems and/or help maintain lifestyles. On the other hand, maybe I&#8217;m just making excuses to do more tinkering.</p>
 
-<h3 class="tags-header">Primary Expertise</h3>
-<p class="subheader">weighed, alphabetized</p>
+<h3 class="tags-header">Expertise</h3>
+<p class="subheader">green = prefer, red = dislike, weight = experience, alphabetized</p>
 
 <ul id="expertise" class="tags">
-  <li><span class="weak">.NET</span></li>
-  <li><span class="weak">C#</span></li>
+  <li class="dislike"><span class="weak">.NET</span></li>
+  <li class="dislike"><span class="weak">C#</span></li>
   <li>CSS</li>
   <li><strong>Drupal</strong></li>
-  <li><strong>Git</strong></li>
+  <li class="prefer"><strong>Git</strong></li>
   <li>HTML</li>
   <li><span class="weak">Javascript</span></li>
+  <li><span class="weak">Jekyll</span></li>
   <li><span class="weak">jQuery</span></li>
-  <li><span class="weak">MSSQL</span></li>
+  <li class="dislike"><span class="weak">MSSQL</span></li>
   <li>MySQL</li>
-  <li><span class="weak">Oracle</span></li>
+  <li class="dislike"><span class="weak">Oracle</span></li>
   <li><strong>PHP</strong></li>
-  <li><strong>PostgreSQL</strong></li>
+  <li class="prefer"><strong>PostgreSQL</strong></li>
   <li><span class="weak">Prototype.js</span></li>
   <li><span class="weak">Pylons</span></li>
   <li><span class="weak">Python</span></li>
-  <li><strong>Rails</strong></li>
-  <li>Rails3</li>
-  <li><strong>REST</strong></li>
-  <li><strong>Ruby</strong></li>
-  <li>Sinatra</li>
+  <li class="prefer"><strong>Rails</strong></li>
+  <li class="prefer">Rails3</li>
+  <li class="prefer"><strong>REST</strong></li>
+  <li class="prefer"><strong>Ruby</strong></li>
+  <li class="prefer">Sinatra</li>
   <li><span class="weak">SQLAlchemy</span></li>
-  <li>Subversion</li>
-  <li><span class="weak">VB.net</span></li>
+  <li class="dislike">Subversion</li>
+  <li class="dislike"><span class="weak">VB.net</span></li>
   <li>Zend Framework</li>
 </ul>
-
 
 <div class="column-wrapper">
   <div class="column">
     <h3>Up the Sleeve</h3>
-
-    <ul>
-      <li>Strive for simplicity and minimalism</li>
-      <li>Prefer <strong>RESTful</strong> architecture</li>
-      <li>Excited about <strong>clean code</strong> and refactoring</li>
-      <li>Know <strong>git</strong> (in depth) and use every day</li>
-      <li>Can configure *nix systems</li>
-      <li>Speak English and Russian</li>
-    </ul>
+    <p>
+      I <em>love simplicity, minimalism, and clarity</em>, as exemplified with this resume. In Rails I <em>prefer following REST principles</em>, but I <em>never stay blindly hooked on paradigms</em>. There are always exceptions. I <em>love clean code and refactoring</em> (and I read both of these books). <em>Git feels very natural</em> to me and I take advantage of its flexibility daily. Sometimes I <em>configure *nix systems</em> if need arises. I also <em>communicate well</em> in English and Russian.
+    </p>
   </div>
 
   <div class="column">
     <h3>Background</h3>
-
-    <ul>
-      <li>PHP + Drupal, Zend Framework</li>
-      <li>Python + Pylons, SQLAlchemy</li>
-      <li>.NET Framework, C#, VB.net</li>
-      <li>Subversion</li>
-      <li>Design patterns</li>
-    </ul>
+    <p>
+      Before encountering the bliss of Ruby I have been hacking in PHP, Python, .NET, C#, VB.net, and even C++. Some of these endeavors go way back. However, to this day I'm still pretty <em>awesome with Drupal</em> and know my way around Zend Framework, Pylons, and Subversion. I've been very <em>focused on architecture and design patterns</em>, and over the years realized that <em>coming up with simple architecture is much harder (and more rewarding) than with a complex one</em>.
+    </p>
   </div>
 
   <div class="column">
     <h3>Education</h3>
-
-    <p>
-      Polytechnic University, Brooklyn<br>
-      Computer Science, BA-Unfinished<br>
-      (completed essential CS and Math courses)
+    <p>For more than 2 years I studied at <em>Polytechnic University</em> (Brooklyn) pursuing a degree in Computer Science. I abandoned this pursuit a bit past half-way in. However, the courses in Algorithms, Data Structures, Discrete Math, and other fundamental computing-related subjects have <em>taught me a lot</em>.
     </p>
   </div>
 </div>
