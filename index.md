@@ -40,7 +40,12 @@ In Short
 <p class="intro">I <em>enjoy teaching as well as learning</em> from others, thus I&#8217;m sure we will have a lot to talk about. The thing is &#8212; I hold it dear that we should be having fun, and principally <em>strive for enjoyable partnership</em>. Some of my attempts at teaching can be found on <a href="http://mediumexposure.com">my blog</a>. Oh, and I build web apps. A lot. In fact I&#8217;m working on two right now in my other OS X &#8220;spaces&#8221;. I <em>love building apps</em> that solve real problems and/or help maintain lifestyles. On the other hand, maybe I&#8217;m just making excuses to do more tinkering.</p>
 
 <h3 class="tags-header">Expertise</h3>
-<p class="subheader">green = prefer, red = dislike, weight = experience, alphabetized</p>
+<p class="subheader">
+  <a id="preferred-filter" href="#">preferred</a>
+  <a id="disliked-filter" href="#">disliked</a>
+  <a id="most-known-filter" href="#">most-known</a>
+</p>
+<!-- <p class="subheader">green = preferred, red = disliked, big = most-known, alphabetized</p> -->
 
 <ul id="expertise" class="tags">
   <li class="dislike"><span class="weak">.NET</span></li>
@@ -73,22 +78,22 @@ In Short
 
 <div class="column-wrapper">
   <div class="column">
-    <h3>Up the Sleeve</h3>
+    <h3>Philosophy</h3>
     <p>
-      I <em>love simplicity, minimalism, and clarity</em>, as exemplified with this resume. In Rails I <em>prefer following REST principles</em>, but I <em>never stay blindly hooked on paradigms</em>. There are always exceptions. I <em>love clean code and refactoring</em> (and I read both of these books). <em>Git feels very natural</em> to me and I take advantage of its flexibility daily. Sometimes I <em>configure *nix systems</em> if need arises. I also <em>communicate well</em> in English and Russian.
+      I <em>love sim&shy;pli&shy;city, min&shy;im&shy;al&shy;ism, and clar&shy;ity</em>, as ex&shy;em&shy;pli&shy;fied in this re&shy;sume. In Rails I <em>prefer fol&shy;low&shy;ing REST prin&shy;ciples</em>, but I <em>nev&shy;er stay blindly hooked on paradigms</em>. There are al&shy;ways ex&shy;cep&shy;tions. I <em>love clean code and re&shy;fact&shy;or&shy;ing</em> (and I read both of these books). I've been ex&shy;tens&shy;ively <em>ex&shy;plor&shy;ing ar&shy;chi&shy;tec&shy;ture and design pat&shy;terns</em>, and over the years real&shy;ized that <em>com&shy;ing up with simple ar&shy;chi&shy;tec&shy;ture is much harder (and more re&shy;ward&shy;ing) than with a com&shy;plex one</em>.
     </p>
   </div>
 
   <div class="column">
     <h3>Background</h3>
     <p>
-      Before encountering the bliss of Ruby I have been hacking in PHP, Python, .NET, C#, VB.net, and even C++. Some of these endeavors go way back. However, to this day I'm still pretty <em>awesome with Drupal</em> and know my way around Zend Framework, Pylons, and Subversion. I've been very <em>focused on architecture and design patterns</em>, and over the years realized that <em>coming up with simple architecture is much harder (and more rewarding) than with a complex one</em>.
+      Be&shy;fore en&shy;coun&shy;ter&shy;ing the bliss of Ruby I have been hack&shy;ing in PHP, Py&shy;thon, .NET, C#, VB.net, and even C++. Some of these en&shy;deavors go way back. However, to this day I'm still pretty <em>awe&shy;some with Drupal</em> and know my way around Zend Frame&shy;work, Pylons, and Sub&shy;ver&shy;sion. <em>Git feels very nat&shy;ur&shy;al</em> to me and I take ad&shy;vant&shy;age of its flex&shy;ib&shy;il&shy;ity daily. Some&shy;times I <em>con&shy;fig&shy;ure *nix sys&shy;tems</em> if need arises. I also <em>com&shy;mu&shy;nic&shy;ate well</em> in Eng&shy;lish and Rus&shy;si&shy;an.
     </p>
   </div>
 
   <div class="column">
     <h3>Education</h3>
-    <p>For more than 2 years I studied at <em>Polytechnic University</em> (Brooklyn) pursuing a degree in Computer Science. I abandoned this pursuit a bit past half-way in. However, the courses in Algorithms, Data Structures, Discrete Math, and other fundamental computing-related subjects have <em>taught me a lot</em>.
+    <p>For more than 2 years I <em>stud&shy;ied at <a href="http://poly.edu">Poly&shy;tech&shy;nic Uni&shy;versity</a></em> (Brook&shy;lyn) pur&shy;su&shy;ing a de&shy;gree in Com&shy;puter Sci&shy;ence. I aban&shy;doned this pur&shy;suit a bit past half-way in. However, the courses in Al&shy;gorithms, Data Struc&shy;tures, Dis&shy;crete Math, and oth&shy;er <em>fun&shy;da&shy;ment&shy;al com&shy;put&shy;ing-re&shy;lated sub&shy;jects have taught me a lot</em>.
     </p>
   </div>
 </div>
