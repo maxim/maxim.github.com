@@ -41,7 +41,8 @@ ul {
 .tags li {
   display: inline;
   margin-right: 0.5em;
-  vertical-align: -2em;
+  vertical-align: middle;
+  line-height: 3em;
   background-color: #eee;
   padding: 0.60em;
   border-radius: 0.25em;
@@ -49,21 +50,23 @@ ul {
   border: 1px solid #ddd;
 }
 
-.tags li .weak {
+.tags li.weak {
   color: #555;
   font-size: 0.9em;
 }
 
-.tags li strong {
+.tags li.strong {
   font-weight: normal;
   font-size: 1.4em;
 }
 
-.tags .prefer {
+.tags li.prefer {
+  border-color: #cec;
   background-color: #dfd;
 }
 
-.tags .dislike {
+.tags li.dislike {
+  border-color: #ecc;
   background-color: #fdd;
 }
 

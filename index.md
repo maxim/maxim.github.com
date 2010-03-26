@@ -48,31 +48,31 @@ In Short
 <!-- <p class="subheader">green = preferred, red = disliked, big = most-known, alphabetized</p> -->
 
 <ul id="expertise" class="tags">
-  <li class="dislike"><span class="weak">.NET</span></li>
-  <li class="dislike"><span class="weak">C#</span></li>
+  <li class="dislike weak">.NET</li>
+  <li class="dislike weak">C#</li>
   <li>CSS</li>
-  <li><strong>Drupal</strong></li>
-  <li class="prefer"><strong>Git</strong></li>
+  <li class="strong">Drupal</li>
+  <li class="prefer strong">Git</li>
   <li>HTML</li>
-  <li><span class="weak">Javascript</span></li>
-  <li><span class="weak">Jekyll</span></li>
-  <li><span class="weak">jQuery</span></li>
-  <li class="dislike"><span class="weak">MSSQL</span></li>
+  <li class="weak">Javascript</li>
+  <li class="weak">Jekyll</li>
+  <li class="weak">jQuery</li>
+  <li class="dislike weak">MSSQL</li>
   <li>MySQL</li>
-  <li class="dislike"><span class="weak">Oracle</span></li>
-  <li><strong>PHP</strong></li>
-  <li class="prefer"><strong>PostgreSQL</strong></li>
-  <li><span class="weak">Prototype.js</span></li>
-  <li><span class="weak">Pylons</span></li>
-  <li><span class="weak">Python</span></li>
-  <li class="prefer"><strong>Rails</strong></li>
+  <li class="dislike weak">Oracle</li>
+  <li class="strong">PHP</li>
+  <li class="prefer strong">PostgreSQL</li>
+  <li class="weak">Prototype.js</li>
+  <li class="weak">Pylons</li>
+  <li class="weak">Python</li>
+  <li class="prefer strong">Rails</li>
   <li class="prefer">Rails3</li>
-  <li class="prefer"><strong>REST</strong></li>
-  <li class="prefer"><strong>Ruby</strong></li>
+  <li class="prefer strong">REST</li>
+  <li class="prefer strong">Ruby</li>
   <li class="prefer">Sinatra</li>
-  <li><span class="weak">SQLAlchemy</span></li>
+  <li class="weak">SQLAlchemy</li>
   <li class="dislike">Subversion</li>
-  <li class="dislike"><span class="weak">VB.net</span></li>
+  <li class="dislike weak">VB.net</li>
   <li>Zend Framework</li>
 </ul>
 
@@ -80,7 +80,7 @@ In Short
   <div class="column">
     <h3>Philosophy</h3>
     <p>
-      I <em>love sim&shy;pli&shy;city, min&shy;im&shy;al&shy;ism, and clar&shy;ity</em>, as ex&shy;em&shy;pli&shy;fied in this re&shy;sume. In Rails I <em>prefer fol&shy;low&shy;ing REST prin&shy;ciples</em>, but I <em>nev&shy;er stay blindly hooked on paradigms</em>. There are al&shy;ways ex&shy;cep&shy;tions. I <em>love clean code and re&shy;fact&shy;or&shy;ing</em> (and I read both of these books). I've been ex&shy;tens&shy;ively <em>ex&shy;plor&shy;ing ar&shy;chi&shy;tec&shy;ture and design pat&shy;terns</em>, and over the years real&shy;ized that <em>com&shy;ing up with simple ar&shy;chi&shy;tec&shy;ture is much harder (and more re&shy;ward&shy;ing) than with a com&shy;plex one</em>.
+      I <em>love sim&shy;pli&shy;city, min&shy;im&shy;al&shy;ism, and clar&shy;ity</em>, as ex&shy;em&shy;pli&shy;fied in this re&shy;sume. In Rails I <em>prefer fol&shy;low&shy;ing REST prin&shy;ciples</em>, but I <em>nev&shy;er stay blindly hooked on paradigms</em>. There are al&shy;ways ex&shy;cep&shy;tions. I <em>love clean code and re&shy;fact&shy;or&shy;ing</em> (and I read both of these books). I've been ex&shy;tens&shy;ively <em>ex&shy;plor&shy;ing ar&shy;chi&shy;tec&shy;ture and design pat&shy;terns</em>, and over the years real&shy;ized that <em>com&shy;ing up with simple ar&shy;chi&shy;tec&shy;ture</em> is much harder (and more re&shy;ward&shy;ing) than with a com&shy;plex one.
     </p>
   </div>
 
