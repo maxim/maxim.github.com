@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+  <head profile="http://dublincore.org/documents/dcq-html/">
     <meta charset="utf-8">
-    <meta name="author" content="Maxim Chernyak">
-    <meta name="description" content="Resume of Maxim Chernyak, Ruby on Rails developer">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
     <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    
+    <link rel="schema.DC" type="application/rdf+xml" href="http://purl.org/dc/elements/1.1/">
+    <link rel="schema.DCTERMS" type="application/rdf+xml" href="http://purl.org/dc/terms/">
+    
+    <meta name="author" content="Maxim Chernyak (hakunin)">
+    <meta name="description" content="Resume of Maxim Chernyak, Ruby on Rails developer">
+    <meta name="keywords" content="Maxim Chernyak, Ruby on Rails, web developer, Resume, Curriculum Vitae">
+    
+    <meta name="DC.creator" content="Maxim Chernyak (hakunin)">
+    <meta name="DC.description" content="Resume of Maxim Chernyak, Ruby on Rails developer">
+    <meta name="DC.subject" content="Resume">
+    <meta name="DC.identifier" scheme="DCTERMS.URI" content="http://maxim.github.com/">
+    <meta name="DC.language" scheme="DCTERMS.RFC3066" content="en">
+    <meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF" content="2010-03-26">
+    <meta name="DCTERMS.audience" content="employers, partners, entrepreneurs, clients">
+    <meta name="DC.format" scheme="DCTERMS.IMT" content="text/html">
+    <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text">
+    
   </head>
   <body>
-    <img id="left-ribbon" src="skim-friendly-resume.png" alt="skim friendly resume" />
+    <img id="left-ribbon" src="skim-friendly-resume.png" alt="skim friendly resume">
     <div id="content">
       {{ content }}
     </div>
