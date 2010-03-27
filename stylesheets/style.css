@@ -1,7 +1,7 @@
 body { 
   font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
+  font-size: 1.3em;
   line-height: 1.3;
-  font-size: 1.1em;
   color: #333;
 }
 
@@ -27,12 +27,6 @@ h3 {
   border: 0;
 }
 
-.subheader {
-  margin-top: 0;
-  color: #666;
-  font-size: 0.9em;
-}
-
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -44,7 +38,7 @@ ul {
 
 .tags {
   font-size: 0.85em;
-  font-family: "courier new";
+  font-family: "Courier New", Courier, monospace;
   margin-top: 0;
   margin-bottom: 2em;
 }
@@ -163,6 +157,7 @@ p em {
 
 .jobs-list li {
   border-left: 8px solid #ddd;
+  background-color: #eee;
   padding-left: 1em;
 }
 
@@ -174,10 +169,16 @@ p em {
 /* PRINT MEDIA */
 
 @media print {
-  body { color: #000; font-size: 1.1em; }
-  p em { background-color: #ccb; }
+  body {
+    color: #000;
+    font-family: Cambria, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.3em;
+  }
   #title { margin-top: 0; }
+  p em { font-weight: bold; }
   #left-ribbon { display: none; }
+  a, a:visited { color: #007; text-decoration: none; }
+  .tags li a { color: #000; }
 }
 
 /* SMALL SCREEN DEVICES */
