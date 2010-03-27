@@ -1,6 +1,7 @@
 body { 
-  font-family: font-family: "Futura Medium", "Century Gothic", AppleGothic, sans-serif;
+  font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
   line-height: 1.3;
+  font-size: 1.1em;
   color: #333;
 }
 
@@ -8,7 +9,16 @@ abbr { border: none; cursor: help; }
 
 h1, h2, h3, h4 { 
   font-family: Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif;
-  font-size: 1.8em;
+
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.8em; }
+
+h3 {
+  margin-bottom: 0;
+  font-size: 1.2em;
+  font-weight: normal;
 }
 
 #left-ribbon {
@@ -34,8 +44,8 @@ ul {
 }
 
 .tags {
-  font-size: 1em;
-  font-family: "Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif;
+  font-size: 0.85em;
+  font-family: "courier new";
   margin-top: 0;
   margin-bottom: 2em;
 }
@@ -47,12 +57,14 @@ ul {
 }
 
 .tags li a {
-  background-color: #eee;
-  padding: 0.60em;
-  line-height: 3em; 
+  -moz-box-shadow: 1px 1px 2px #777;
+  -webkit-box-shadow: 1px 1px 2px #777;
+  background-color: #efefef;
+  padding: 0.40em;
+  line-height: 2.8em; 
   border-radius: 0.25em;
   -moz-border-radius: 0.25em;
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
 }
 
 .tags .weak {
@@ -62,17 +74,19 @@ ul {
 
 .tags .strong {
   font-weight: normal;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .tags .prefer {
-  border-color: #cec;
-  background-color: #dfd;
+/*  border-color: #cec;
+  background-color: #dfd;*/
+  
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 .tags .dislike {
-  border-color: #ecc;
-  background-color: #fdd;
+  font-size: 0.9em;
 }
 
 #title {
@@ -124,7 +138,7 @@ ul {
   float: left;
   width: 30%;
   text-align: justify;
-  padding: 15px;
+  padding-right: 30px;
 }
 
 p em {
@@ -132,4 +146,46 @@ p em {
   background-color: #ffd;
   padding: 2px 5px 2px 5px;
   color: #444;
+}
+
+.dtrange {
+  text-shadow: none;
+  font-weight: normal;
+  font-size: 15px;
+  margin-left: 0.5em;
+  color: #777;
+}
+
+#bitsonnet-experience-intro {
+  margin-top: -1em;
+  margin-bottom: 2em;
+}
+
+.jobs-list li {
+  border-left: 8px solid #ddd;
+  padding-left: 1em;
+}
+
+.job-description {
+  margin: 0.25em 0 2em 1em;
+  color: #444;
+}
+
+@media print {
+  body {
+    color: #000;
+    font-size: 1.1em;
+  }
+  
+  #title {
+    margin-top: 0;
+  }
+  
+  p em {
+    background-color: #ccb;
+  }
+  
+  #left-ribbon {
+    display: none;
+  }
 }
