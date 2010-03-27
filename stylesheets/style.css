@@ -169,6 +169,8 @@ p em {
   color: #444;
 }
 
+/* PRINT MEDIA */
+
 @media print {
   body {
     color: #000;
@@ -186,4 +188,11 @@ p em {
   #left-ribbon {
     display: none;
   }
+}
+
+/* SMALL SCREEN DEVICES */
+
+@media only screen and (max-device-width: 480px) {
+  #content { width: auto; padding: 0 2em 0 1em; }
+  .column { width: auto; }
 }
