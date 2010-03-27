@@ -193,6 +193,6 @@ p em {
 /* SMALL SCREEN DEVICES */
 
 @media only screen and (max-device-width: 480px) {
-  #content { width: auto; padding: 0 2em 0 1em; }
+  #content { width: 480px; padding: 10px; }
   .column { width: auto; }
 }
