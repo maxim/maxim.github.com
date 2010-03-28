@@ -157,12 +157,17 @@ p em {
 
 .jobs-list li {
   border-left: 8px solid #ddd;
-  background-color: #eee;
-  padding-left: 1em;
+  background-color: #efefef;
+  padding: 0.75em 0.5em 0.75em 1em;
+  margin-bottom: 1em;
+}
+
+.jobs-list li h3 {
+  margin-top: 0;
 }
 
 .job-description {
-  margin: 0.25em 0 2em 1em;
+  margin: 0.25em 0 0 1em;
   color: #444;
 }
 
