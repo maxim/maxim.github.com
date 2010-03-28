@@ -154,8 +154,6 @@ p em {
 }
 
 .jobs-list li {
-  border-left: 8px solid #ddd;
-  background-color: #F5F5F8;
   padding: 0.75em 0.5em 0.75em 1em;
   margin-bottom: 1em;
 }
@@ -166,7 +164,7 @@ p em {
 
 .job-description {
   margin: 0.25em 0 0 1em;
-  color: #444;
+  color: #333;
 }
 
 /* PRINT MEDIA */
