@@ -32,8 +32,14 @@ img {
 
 #download-links {
   position: absolute;
-  top: 5px;
-  left: 150px;
+  top: 200px;
+  right: 0;
+  padding: 5px;
+  border-right: 5px solid red;
+}
+
+#download-links a {
+  display: block;
 }
 
 ul {
