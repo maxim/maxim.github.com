@@ -175,7 +175,7 @@ p em {
     font-family: Cambria, Georgia, Times, "Times New Roman", serif;
     font-size: 1.3em;
   }
-  #title { margin-top: 0; }
+  #title { margin-top: -0.5em; font-size: 3em; }
   p em { font-weight: bold; }
   #left-ribbon { display: none; }
   a, a:visited { color: #007; text-decoration: none; }
