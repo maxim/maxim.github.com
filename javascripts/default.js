@@ -11,19 +11,44 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
 
 (function(){
   
-  var positonedEmEls = [ ];
-  function absolutizeEms() {
+  function byId(id) {
+    return (typeof id === 'string' ? document.getElementById(id) : id);
+  }
+  function removeEl(el) {
+    el.parentNode.removeChild(el);
+  }
+  function setElStyles(el, styles) {
+    for (var name in styles) {
+      el.style[name] = styles[name];
+    }
+  }
+  
+  var summaryEls = [ ];
+  function absolutizeSummaryEls() {
     var emEls = document.getElementsByTagName('em');
     for (var i = 0, len = emEls.length; i < len; i++) {
       var left = emEls[i].offsetLeft,
           top = emEls[i].offsetTop,
           clone = emEls[i].cloneNode(true);
-      clone.style.position = 'absolute';
-      clone.style.left = left + 'px';
-      clone.style.top = top + 'px';
+      setElStyles(clone, {
+        position: 'absolute',
+        left: left + 'px',
+        top: top + 'px'
+      });
       document.body.appendChild(clone);
-      positonedEmEls.push(clone);
+      summaryEls.push(clone);
     }
+    var titleEl = byId('title');
+    var titleClone = titleEl.cloneNode(true);
+    setElStyles(titleClone, {
+      position: 'absolute',
+      left: titleEl.offsetLeft + 'px',
+      top: titleEl.offsetTop + 'px',
+      width: titleEl.offsetWidth + 'px',
+      margin: 0
+    });
+    titleClone.id = 'title-clone';
+    document.body.appendChild(titleClone);
   }
   
   function centerElementAt(element, top) {
@@ -32,15 +57,15 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
     emile(element, 'top:' + top + 'px', { duration: 500 });
   }
   
-  function animateEms() {
-    var top = 50, animationInterval = 100;
+  function showSummaryEls() {
+    var top = 130, animationInterval = 100;
     emile('content', 'opacity:0', {
       duration: 500,
       after: function(){
         setTimeout(function() {
-          if (positonedEmEls.length) {
+          if (summaryEls.length) {
             top += 30;
-            centerElementAt(positonedEmEls.shift(), top);
+            centerElementAt(summaryEls.shift(), top);
             setTimeout(arguments.callee, animationInterval);
           }
           else {
@@ -51,7 +76,7 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
     });
   }
   
-  function removeEms() {
+  function removeSummaryEls() {
     var ems = [ ];
     for (var i = 0, els = document.body.childNodes, len = els.length; i < len; i++) {
       if (els[i].tagName === 'EM') {
@@ -64,7 +89,7 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
         emile(el, 'left:-500px', { 
           after: (function(el){
             return function() {
-              el.parentNode.removeChild(el);
+              removeEl(el);
             };
           })(el)
         });
@@ -76,23 +101,35 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
     })();
   }
   
-  var summarizeBtn = document.getElementById('summarize');
+  var summarizeBtn = byId('summarize');
   var isSummarized = false;
+  
+  function hideSummary() {
+    summarizeBtn.disabled = true;
+    isSummarized = false;
+    summarizeBtn.innerHTML = 'Summarize';
+    removeSummaryEls();
+    removeEl(byId('title-clone'));
+    setTimeout(function(){
+      emile('content', 'opacity:1', { duration: 500 });
+    }, 700);
+  }
+  
+  function showSummary() {
+    summarizeBtn.disabled = true;
+    isSummarized = true;
+    summarizeBtn.innerHTML = 'Show content';
+    absolutizeSummaryEls();
+    showSummaryEls();
+  }
+  
   summarizeBtn.style.display = '';
   summarizeBtn.onclick = function() {
     if (isSummarized) {
-      summarizeBtn.disabled = true;
-      isSummarized = false;
-      summarizeBtn.innerHTML = 'Summarize';
-      removeEms();
-      emile('content', 'opacity:1', { duration: 500 });
+      hideSummary();
     }
     else {
-      summarizeBtn.disabled = true;
-      isSummarized = true;
-      summarizeBtn.innerHTML = 'Show content';
-      absolutizeEms();
-      animateEms();
+      showSummary();
     }
   };
   
