@@ -199,6 +199,8 @@ em {
   #left-ribbon { display: none; }
   a, a:visited { color: #007; text-decoration: none; }
   .tags li a { color: #000; }
+  #summarize { display: none; }
+  #download-links { display: none; }
 }
 
 /* SMALL SCREEN DEVICES */
