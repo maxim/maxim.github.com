@@ -32,10 +32,11 @@ img {
 
 #download-links {
   position: absolute;
-  top: 200px;
+  top: 160px;
   right: 0;
   padding: 5px;
-  border-right: 5px solid red;
+  padding-top: 15px;
+  background-color: #ffd;
 }
 
 #download-links a {
@@ -183,7 +184,7 @@ em {
   color: #333;
 }
 
-#summarize { position: absolute; top: 1em; right: 1em; }
+#summarize { color: #555; position: absolute; top: 1em; right: 1em; }
 
 /* PRINT MEDIA */
 
