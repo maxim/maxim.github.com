@@ -48,8 +48,12 @@ ul {
   padding-left: 0;
 }
 
+#expertise {
+  text-align: center;
+}
+
 .tags-header {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
 }
 
 .tags {
@@ -81,7 +85,7 @@ ul {
 }
 
 .tags .weak {
-  color: #555;
+  color: #333;
   font-size: 0.9em;
 }
 
