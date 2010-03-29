@@ -65,7 +65,7 @@ ul {
   vertical-align: middle;
 }
 
-.tags li a {
+.tags li {
   -moz-box-shadow: 0px 1px 2px #777;
   -webkit-box-shadow: 1px 1px 2px #777;
   box-shadow: 0px 1px 2px #777;
@@ -198,7 +198,7 @@ em {
   em { font-weight: bold; }
   #left-ribbon { display: none; }
   a, a:visited { color: #007; text-decoration: none; }
-  .tags li a { color: #000; }
+  .tags li { color: #000; }
   #summarize { display: none; }
   #download-links { display: none; }
 }
