@@ -133,7 +133,7 @@ ul {
   padding-right: 30px;
 }
 
-p em {
+em {
   font-style: inherit;
   background-color: #ffd;
   padding: 2px 5px 2px 5px;
@@ -167,6 +167,8 @@ p em {
   color: #333;
 }
 
+#summarize { position: absolute; top: 1em; right: 1em; }
+
 /* PRINT MEDIA */
 
 @media print {
@@ -176,7 +178,7 @@ p em {
     font-size: 1.3em;
   }
   #title { margin-top: -0.5em; font-size: 3em; }
-  p em { font-weight: bold; }
+  em { font-weight: bold; }
   #left-ribbon { display: none; }
   a, a:visited { color: #007; text-decoration: none; }
   .tags li a { color: #000; }
