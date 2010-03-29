@@ -32,8 +32,8 @@ img {
 
 #download-links {
   position: absolute;
-  top: 50%;
-  left: 0;
+  top: 28.5%;
+  right: 0;
   background: #eee;
   padding: 5px;
   /*-moz-border-radius-topright: 5px;
