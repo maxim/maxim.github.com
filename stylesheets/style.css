@@ -32,8 +32,16 @@ img {
 
 #download-links {
   position: absolute;
-  top: 5px;
-  left: 150px;
+  top: 50%;
+  left: 0;
+  background: #eee;
+  padding: 5px;
+  /*-moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;*/
+}
+
+#download-links a {
+  display: block;
 }
 
 ul {

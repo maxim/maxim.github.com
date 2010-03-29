@@ -52,7 +52,6 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
   }
   
   function removeEms() {
-    debugger;
     var ems = [ ];
     for (var i = 0, els = document.body.childNodes, len = els.length; i < len; i++) {
       if (els[i].tagName === 'EM') {
