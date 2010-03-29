@@ -19,11 +19,21 @@ h3 {
   font-weight: normal;
 }
 
+img {
+  border: 0;
+}
+
 #left-ribbon {
   position: absolute; 
   top: 0; 
   left: 0; 
   border: 0;
+}
+
+#download-links {
+  position: absolute;
+  top: 5px;
+  left: 150px;
 }
 
 ul {
