@@ -186,7 +186,7 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
   function hideSummary() {
     summarizeBtn.disabled = true;
     isSummarized = false;
-    summarizeBtn.innerHTML = 'Summarize';
+    summarizeBtn.innerHTML = 'Summarize!';
     removeSummaryEls();
     removeEl(byId('title-clone'));
     setTimeout(function(){
