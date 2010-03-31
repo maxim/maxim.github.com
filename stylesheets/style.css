@@ -189,6 +189,10 @@ em {
 
 #summarize { color: #555; position: absolute; top: 1em; right: 1em; width: 10em; }
 
+#projects-contributed-to { margin-left: 1em; }
+#projects-contributed-to li { display: inline; margin-right: 0.5em; line-height: 1.5; }
+#projects-contributed-to li a { margin-right: 0.5em; }
+
 /* PRINT MEDIA */
 
 @media print {
