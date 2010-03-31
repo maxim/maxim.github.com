@@ -24,13 +24,30 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
       el.style[name] = styles[name];
     }
   }
+  var getComputedStyle = function(el) { return el.style; }, 
+      view = document.defaultView;
+  if (view && view.getComputedStyle) {
+    getComputedStyle = function(el){ return view.getComputedStyle(el, ''); };
+  }
+  else if (document.documentElement.currentStyle) {
+    getComputedStyle = function(el){ return el.currentStyle; };
+  }
+  function getOffset(el, direction) {
+    var offsetProp = 'offset' + (direction.charAt(0).toUpperCase() + direction.slice(1)),
+        offsetValue = el[offsetProp],
+        cs;
+    while ((el = el.offsetParent) && (cs = getComputedStyle(el))) {
+      offsetValue += el[offsetProp];
+    }
+    return offsetValue;
+  }
   
   var summaryEls = [ ];
   function absolutizeSummaryEls() {
     var emEls = document.getElementsByTagName('em');
     for (var i = 0, len = emEls.length; i < len; i++) {
-      var left = emEls[i].offsetLeft,
-          top = emEls[i].offsetTop,
+      var left = getOffset(emEls[i], 'left'),
+          top = getOffset(emEls[i], 'top'),
           clone = emEls[i].cloneNode(true);
       setElStyles(clone, {
         position: 'absolute',
@@ -44,8 +61,8 @@ var _gaq = [['_setAccount', 'UA-2029229-5'], ['_trackPageview']];
     var titleClone = titleEl.cloneNode(true);
     setElStyles(titleClone, {
       position: 'absolute',
-      left: titleEl.offsetLeft + 'px',
-      top: titleEl.offsetTop + 'px',
+      left: getOffset(titleEl, 'left') + 'px',
+      top: getOffset(titleEl, 'top') + 'px',
       width: titleEl.offsetWidth + 'px',
       margin: 0
     });
