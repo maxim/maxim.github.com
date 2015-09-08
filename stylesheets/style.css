@@ -214,8 +214,8 @@ em {
 /* PRINT MEDIA */
 
 @media print {
-  body { color: #000; font-family: Cambria, Georgia, Times, "Times New Roman", serif; font-size: 1.3em; }
-  em { font-weight: bold; }
+  body { color: #000; font-family: Cambria, Georgia, Times, "Times New Roman", serif; font-size: 1.05em; }
+  em { font-weight: normal; }
   a:link, a:visited { color: #007; text-decoration: none; }
   .tags li { color: #000; }
   #title { margin-top: -0.5em; font-size: 3em; }
